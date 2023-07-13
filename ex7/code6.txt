@@ -1,0 +1,12 @@
+void setup(){
+//ƒLƒƒƒ“ƒpƒX‚ğì¬
+  size(600,600);
+}
+
+void draw(){
+  fill(random(255), random(255), random(255), 200);
+  float w = random(50);
+  //‰~‚ğ•`‚­
+  ellipse(random(600), random(600), w , w);
+}
+

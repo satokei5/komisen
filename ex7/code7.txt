@@ -1,0 +1,12 @@
+// setup関数：最初に実行される
+void setup(){
+  size( 600, 400 ); // 600 x 400 のウィンドウを開く
+  background( 0 ); // 背景色を 0 にする
+}
+
+// draw関数：関数内の処理が無限に繰り返される
+void draw(){
+  stroke( random(255), random(255), 255, 60 ); // 色を指定
+  line( 0, 200, 600, random(400) ); // 線をかく 
+}
+
